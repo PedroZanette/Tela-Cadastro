@@ -17,6 +17,7 @@ body {
   /* background-color: #14023B; */
   background: linear-gradient(112deg, #2242DA -7.38%, #451892 -1.58%, #2F0E6B 13.55%, #1D064B 26.57%, #14023B 40.26%, #170341 57.22%, #1E074D 69.33%, #310F6E 90.72%, #263ACB 133.23%);
   color: #fff;
+  overflow: hidden;
 }
 
 .Foto {
@@ -24,40 +25,58 @@ body {
   padding: 1.5em;
   position: relative;
   left: -23em;
-  top: -43em;
+  top: -40em;
 }
 
-.titulo{
-  position: relative;
-  left: 6.5em;
-}
 
 .google{
   height: 9em;
 }
 
 button{
-
+  width: 7.5em;
+  outline: none;  
+  border: none;
 }
 
+button:hover{
+  border: none;
+}
+
+.titulo{
+  position: relative;
+  left: 7.5em;
+}
 .card{
   background: linear-gradient(112deg, #2242DA -7.38%, #451892 -1.58%, #2F0E6B 13.55%, #1D064B 26.57%, #14023B 40.26%, #170341 57.22%, #1E074D 69.33%, #310F6E 90.72%, #263ACB 133.23%);;
   border-radius: 1em;
   position: relative;
-  left: 20em;
+  width: 33em;
+  left: 27em;
   top: 0em;
-  padding: 2em;
+  padding: 0em;
+  padding-top: 3em;
+  padding-left: 0em;
+}
+
+.cadastro{
+  width: fit-content;
 }
 
 input{
-  max-width: 28em;
-  padding: 1.5em;
+  max-width: 34em;
+  width: 16em;
+  padding: 1.2em;
   border: none;
   border-radius: 1em;
   outline: none;
 }
 
 img{
-  height: 37em;
+  height: 35em;
 }
 
+p{
+  position: relative;
+  top: -1.2em;
+}

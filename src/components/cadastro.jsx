@@ -8,13 +8,13 @@ const Cadastro = () => {
 
     return (
         <>
-            <div className="cadastro">
+            <div className="">
                 <h1 className="titulo">Cadastrar</h1>
                 <div className="card">
-                    <input type="text" placeholder="Email"/><br /><br />
                     <input type="text" placeholder="Usuário"/><br /><br />
-                    <input type="text" placeholder="Senha"/><br /><br />
-                    <input type="text" placeholder="Repitir Senha"/><br /><br />
+                    <input type="email" placeholder="Email"/><br /><br />
+                    <input type="password" placeholder="Senha"/><br /><br />
+                    <input type="password" placeholder="Repitir Senha"/><br /><br />
                     <button>Cadastrar</button> &nbsp;
                     <button>Login</button> <br />
                     <img src={google} alt="google" className="google"/>
@@ -22,6 +22,7 @@ const Cadastro = () => {
                 <div className="Foto">
                     <img src={FotoCadastro} alt="foto-cadastro" />
                 </div>
+                <p>@2024  Iniciação Científica. Escola SESI Florianópolis</p>
             </div>
         </>
     )

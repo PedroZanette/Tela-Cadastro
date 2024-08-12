@@ -8,7 +8,7 @@ const Cadastro = () => {
 
     return (
         <>
-            
+          
                 <h1 className="titulo">Cadastrar</h1>
                 <div className="card">
                     <input type="text" placeholder="Usuário" /><br /><br />

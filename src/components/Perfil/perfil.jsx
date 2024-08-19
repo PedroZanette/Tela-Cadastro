@@ -1,5 +1,5 @@
 import React from "react";
-import '../Perfil/';
+import '../Perfil/perfil.css';
 
 
 const Perfil = () => {

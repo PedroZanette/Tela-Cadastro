@@ -21,8 +21,8 @@ const Cadastro = () => {
                         <input type="email" placeholder="Email" /><br /><br />
                         <input type="password" placeholder="Senha" /><br /><br />
                         <input type="password" placeholder="Repitir Senha" /><br /><br />
-                        <button>Cadastrar</button> &nbsp;
-                        <button>Login</button> <br />
+                        <button className="btn-1">Cadastrar</button> 
+                        <button className="btn-2">Login</button> <br />
                         <FcGoogle className="google"/>
                     </div>
                 </div>

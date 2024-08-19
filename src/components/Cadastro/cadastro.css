@@ -25,14 +25,27 @@
     font-size: 400%;
   }
   
-  button{
+  .btn-1, .btn-2{
     width: 7.5em;
+    margin: 1vh;
     outline: none;  
     border: none;
+   
+    
   }
-  
+  .btn-1{
+    display: flexbox;
+  }
+  .btn-2{
+    display: flexbox;
+  }
   button:hover{
-    background-color: #14023B;
+    transition: 500000ms linear; 
+    color: white;
+    
+    outline: none;  
+    border: none;
+    background-color: #3d004f73;
   }
   
   .cardCadastro{

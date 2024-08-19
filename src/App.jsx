@@ -1,6 +1,6 @@
 import './App.css'
-import Cadastro from './components/cadastro'
-import Navbar from './components/navbar'
+import Cadastro from './components/Cadastro/cadastro'
+
 
 function App() {
 

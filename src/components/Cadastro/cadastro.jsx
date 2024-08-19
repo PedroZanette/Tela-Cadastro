@@ -1,7 +1,8 @@
 import React from "react";
-import FotoCadastro from "../assets/foto-cadastro.png";
-import google from "../assets/google.png";
-import '../App.css';
+import FotoCadastro from "../../assets/foto-cadastro.png";
+import google from "../../assets/google.png";
+import '../../App.css';
+import '../Cadastro/cadastro.css';
 
 
 const Cadastro = () => {

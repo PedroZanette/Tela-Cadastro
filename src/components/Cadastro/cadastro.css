@@ -1,0 +1,57 @@
+.Foto {
+    height: 1em;
+    padding: 1.5em;
+    position: relative;
+    left: -23em;
+    top: -35em;
+  }
+  
+  .foto-cadastro{
+    height: 32em;
+  }
+  
+  .google{
+    height: 7em;
+  }
+  
+  button{
+    width: 7.5em;
+    outline: none;  
+    border: none;
+  }
+  
+  button:hover{
+    border: none;
+  }
+  
+  .titulo{
+    position: relative;
+    left: 7em;
+  }
+  .card{
+    background: linear-gradient(112deg, #2242DA -7.38%, #451892 -1.58%, #2F0E6B 13.55%, #1D064B 26.57%, #14023B 40.26%, #170341 57.22%, #1E074D 69.33%, #310F6E 90.72%, #263ACB 133.23%);;
+    border-radius: 1em;
+    position: relative;
+    width: 30em;
+    height: 24em;
+    left: 70%;
+    top: -1vw;
+    padding: 0em;
+    padding-top: 2em;
+    padding-left: 0em;
+    padding-bottom: 2rem;
+  }
+  
+  .cadastro{
+    width: fit-content;
+  }
+  
+  input{
+    max-width: 35em;
+    width: 14em;
+    height: 1em;
+    padding: 1.2em;
+    border: none;
+    border-radius: 1em;
+    outline: none;
+  }

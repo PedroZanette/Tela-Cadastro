@@ -1,0 +1,117 @@
+.perfil {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  
+  }
+
+  .cardPerfil {
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    justify-content: right;
+    align-items: center;
+  }
+  
+
+  .titulo {
+    font-size: 220%;
+    text-align: left;
+  }
+
+  .card-Perfil {
+    background: linear-gradient(112deg, #2242DA -7.38%, #451892 -1.58%, #2F0E6B 13.55%, #1D064B 26.57%, #14023B 40.26%, #170341 57.22%, #1E074D 69.33%, #310F6E 90.72%, #263ACB 133.23%);
+    border-radius: 1em;
+    width: 30em;
+    height: 24em;
+    padding: 0em;
+    padding-top: 2em;
+    padding-left: 0em;
+    padding-bottom: 2rem;
+  }
+
+  .info{
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .btn-1Salvar,
+  .btn-2Sair {
+    width: 7.5em;
+    margin: 1vh;
+    outline: none;
+    border: none;
+  
+  
+  }
+  
+  .btn-1Salvar {
+    display: flexbox;
+    background-color: #125ab7;
+    color: aliceblue;
+  }
+  
+  .btn-2Sair {
+    display: flexbox;
+    background-color: rgb(236, 22, 22);
+    color: aliceblue;
+  }
+
+  .divFotoPerfil {
+    margin-top: 6%;
+    margin-right: 3.5%;
+    height: fit-content;
+    padding: 0.1em;
+    padding-bottom: 0em;
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .foto-cadastro {
+    height: 65vh;
+    /* max-height: fit-content; */
+  }
+  
+  .icone {
+  
+    font-size: 2500%;
+  }
+  
+
+  
+  button:hover {
+    transition: 500000ms linear;
+    color: white;
+  
+    outline: none;
+    border: none;
+    background-color: #3d004f73;
+  }
+  
+  .cardPerfil {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    justify-content: right;
+    align-items: center;
+  }
+  
+  
+  
+ 
+
+ 
+  
+  input {
+    /* max-width: 35em; */
+    width: 14em;
+    height: 20.5em;
+    padding: 1.2em;
+    border: none;
+    border-radius: 1em;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.726);
+  }

@@ -1,8 +1,10 @@
-p{
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    margin-bottom: 0%;
-    height: max-content;
-    max-height: max-content;
-  }
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

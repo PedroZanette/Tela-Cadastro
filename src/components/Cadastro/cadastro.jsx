@@ -1,6 +1,5 @@
-import React from "react";
+import * as React from 'react';
 import FotoCadastro from "../../assets/foto-cadastro.png";
-import google from "../../assets/google.png";
 import { FcGoogle } from "react-icons/fc";
 import '../../App.css';
 import '../Cadastro/cadastro.css';
@@ -16,7 +15,7 @@ const Cadastro = () => {
                 </div>
                 <div className="cardCadastro">
                     <h1 className="titulo">Cadastrar</h1>
-                    <div className="card">
+                    <div className="card-cadastro">
                         <input type="text" placeholder="Usuário" /><br /><br />
                         <input type="email" placeholder="Email" /><br /><br />
                         <input type="password" placeholder="Senha" /><br /><br />

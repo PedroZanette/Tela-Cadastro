@@ -1,86 +1,88 @@
-.cadastro{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    
+.cadastro {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+
 }
 
 .divFoto {
-   margin-top: 2.5%;
-    height: 1em;
-    padding: 4em;
-    display: flex;
-    flex: auto;
-    justify-content: center;
-    align-items: right;
-    
-  }
-  
-  .foto-cadastro{
-    height: 2800%;
-  }
-  
-  .google{
-    
-    font-size: 400%;
-  }
-  
-  .btn-1, .btn-2{
-    width: 7.5em;
-    margin: 1vh;
-    outline: none;  
-    border: none;
-   
-    
-  }
-  .btn-1{
-    display: flexbox;
-  }
-  .btn-2{
-    display: flexbox;
-  }
-  button:hover{
-    transition: 500000ms linear; 
-    color: white;
-    
-    outline: none;  
-    border: none;
-    background-color: #3d004f73;
-  }
-  
-  .cardCadastro{
-    display: flex;
-    flex-direction: column;
-    flex: auto;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .titulo{
-    font-size: 250%;
-  }
-  .card{
-    background: linear-gradient(112deg, #2242DA -7.38%, #451892 -1.58%, #2F0E6B 13.55%, #1D064B 26.57%, #14023B 40.26%, #170341 57.22%, #1E074D 69.33%, #310F6E 90.72%, #263ACB 133.23%);;
-    border-radius: 1em;
-    /* position: relative;
-    left: 70%;
-    top: -1vw; */
-    width: 30em;
-    height: 24em;
-    padding: 0em;
-    padding-top: 2em;
-    padding-left: 0em;
-    padding-bottom: 2rem;
-  }
-  
-  input{
-    max-width: 35em;
-    width: 14em;
-    height: 1em;
-    padding: 1.2em;
-    border: none;
-    border-radius: 1em;
-    outline: none;
-  }
+  margin-top: 2.5%;
+  height: fit-content;
+  padding: 1em;
+  padding-bottom: 0em;
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  align-items: right;
+}
 
- 
+.foto-cadastro {
+  height: 65vh;
+  /* max-height: fit-content; */
+}
+
+.google {
+
+  font-size: 400%;
+}
+
+.btn-1,
+.btn-2 {
+  width: 7.5em;
+  margin: 1vh;
+  outline: none;
+  border: none;
+
+
+}
+
+.btn-1 {
+  display: flexbox;
+}
+
+.btn-2 {
+  display: flexbox;
+}
+
+button:hover {
+  transition: 500000ms linear;
+  color: white;
+
+  outline: none;
+  border: none;
+  background-color: #3d004f73;
+}
+
+.cardCadastro {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  font-size: 250%;
+}
+
+.card-cadastro {
+  background: linear-gradient(112deg, #2242DA -7.38%, #451892 -1.58%, #2F0E6B 13.55%, #1D064B 26.57%, #14023B 40.26%, #170341 57.22%, #1E074D 69.33%, #310F6E 90.72%, #263ACB 133.23%);
+  border-radius: 1em;
+  width: 30em;
+  height: 24em;
+  padding: 0em;
+  padding-top: 2em;
+  padding-left: 0em;
+  padding-bottom: 2rem;
+}
+
+input {
+  /* max-width: 35em; */
+  width: 14em;
+  height: 20.5em;
+  padding: 1.2em;
+  border: none;
+  border-radius: 1em;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.726);
+}

@@ -1,25 +1,36 @@
-import React from "react";
+import * as React from 'react';
+import { IoPersonCircleOutline } from "react-icons/io5";
+
+import { FcGoogle } from "react-icons/fc";
+import '../../App.css';
 import '../Perfil/perfil.css';
+import { MdOutlinePermIdentity } from "react-icons/md";
 
 
 const Perfil = () => {
 
     return (
         <>
-         <h1 className="titulo">Perfil</h1>
-         <div className="card">
-               <input type="text" placeholder="Usuário" /><br /><br />
-               <input type="email" placeholder="Email" /><br /><br />
-                <input type="password" placeholder="Senha" /><br /><br />
-            <input type="password" placeholder="Repitir Senha" /><br /><br />
-            <button>Cadastrar</button> &nbsp;
-            <button>Login</button> <br />
-            <img src={google} alt="google" className="google" />
-        </div>
-        <div className="Foto">
-            <img src={FotoCadastro} alt="foto-cadastro" className="foto-cadastro" />
-        </div>
-         <p>@2024  Iniciação Científica. Escola SESI Florianópolis</p>
+         <div className="perfil">
+                <div className="cardPerfil">
+                <h1 className="titulo">Perfil</h1>
+                    <div className="card-Perfil">
+                        <h1 className='info'>Nome</h1>
+                        <input type="text" placeholder="Nome" /><br /><br />
+                        <h1 className='info'>Senha</h1>
+                        <input type="password" placeholder="Senha" /><br /><br />
+                        <h1 className='info'>Email</h1>
+                        <input type="email" placeholder="Email" /><br /><br />
+                        <button className="btn-1Salvar">Salvar</button> 
+                        <button className="btn-2Sair">Sair</button> <br />
+                    </div>
+                </div>
+                <div className="divFotoPerfil">
+                <IoPersonCircleOutline className='icone' />
+
+
+                </div>
+            </div>
         </>
     )
 

@@ -42,7 +42,6 @@
   button:hover{
     transition: 500000ms linear; 
     color: white;
-    
     outline: none;  
     border: none;
     background-color: #3d004f73;

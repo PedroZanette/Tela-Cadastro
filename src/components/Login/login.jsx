@@ -3,6 +3,7 @@ import FotoLogin from "../../assets/foguete.svg";
 import { FcGoogle } from "react-icons/fc";
 import '../../App.css';
 import '../Login/login.css';
+import '../RecPassword/recPassword';
 
 
 const Login = () => {
@@ -22,6 +23,7 @@ const Login = () => {
                 
                         <button className="btn-1">Login</button> 
                         <button className="btn-2">Cadastrar</button> <br /><br />
+                        <a href="RecPassword"></a>
                         <FcGoogle className="google"/>
                     </div>
                 </div>

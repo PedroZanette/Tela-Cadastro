@@ -4,7 +4,7 @@ import './footer.css'
 export const Footer = () => {
     
     return (
-        <p>@2024  Iniciação Científica. Escola SESI Florianópolis</p>
+        <p className="footer">@2024  Iniciação Científica. Escola SESI Florianópolis</p>
     )
 
 }

@@ -1,10 +1,7 @@
 import * as React from 'react';
 import { IoPersonCircleOutline } from "react-icons/io5";
-
-import { FcGoogle } from "react-icons/fc";
 import '../../App.css';
 import '../Perfil/perfil.css';
-import { MdOutlinePermIdentity } from "react-icons/md";
 
 
 const Perfil = () => {

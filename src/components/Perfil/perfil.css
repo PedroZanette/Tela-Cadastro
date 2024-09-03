@@ -16,8 +16,9 @@
   
 
   .titulo {
+    margin-top: 10%;
     font-size: 220%;
-    text-align: left;
+    text-align: center;
   }
   
 
@@ -53,6 +54,8 @@
     background-color: #125ab7;
     color: aliceblue;
   }
+
+ 
   
   .btn-2Sair {
     display: flexbox;
@@ -61,7 +64,7 @@
   }
 
   .divFotoPerfil {
-    margin-top: 6%;
+    margin-top: 9%;
     margin-right: 3.5%;
     height: fit-content;
     padding: 0.1em;
@@ -101,10 +104,8 @@
     align-items: center;
   }
 
-  input {
-    /* max-width: 35em; */
+  .input-perfil {
     width: 14em;
-    height: 20.5em;
     padding: 1.2em;
     border: none;
     border-radius: 1em;

@@ -13,7 +13,7 @@ const Home = () => {
                 <div className="card-home">
                     <h1 className="titulo-home">Iniciação Científica</h1>
                     <p className='p-home'>Grupo de Iniciação Científica de Florianópolis, Santa Catarina, propondo ferramentas para análises em Acústica de forma acessível.</p>
-                    <button className='btn-saibaMais'> Saiba Mais</button>
+                    <button className='btn-saibaMais'> Saiba Mais ➤</button>
                 </div>
                 <div className="divFoto">
                     <img src={FotoLogin} alt="foto-login" className="foto-login" />

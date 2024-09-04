@@ -22,6 +22,7 @@ const Login = () => {
                 
                         <button className="btn-1">Login</button> 
                         <button className="btn-2">Cadastrar</button> <br /><br />
+                        <link rel="stylesheet" href="RecPassword" />
                         <a href="RecPassword">Esqueceu a senha?</a><br /> <br />
                         <FcGoogle className="google"/>
                     </div>

@@ -8,8 +8,10 @@ import Home from './components/Home/home';
 import AI from './components/AI/trafficAi';
 import Calculator from './components/Calculator/calculator';
 import { Footer } from './components/Footer/footer';
+import RecPassword from './components/RecPassword/recPassword';
 
 
+/*Eu não aguento mais*/
 function App() {
 
   const [paginaAtual, setPaginaAtual] = useState('Home');

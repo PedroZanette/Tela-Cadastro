@@ -2,10 +2,8 @@
     display: flex;
     justify-content: space-around;
     width: 100%;
-    height: 80%;
+    height: 100%;
 }
-
-
   
   .cardCalculator{
     display: flex;
@@ -13,6 +11,7 @@
     flex: auto;
     justify-content: center;
     align-items: center;
+    height: max-content;
   }
   
   .titulo-calculator{
@@ -21,14 +20,14 @@
     display: flex;
   }
   .card-calculator{
-    
     background: linear-gradient(112deg, #2242DA -7.38%, #451892 -1.58%, #2F0E6B 13.55%, #1D064B 26.57%, #14023B 40.26%, #170341 57.22%, #1E074D 69.33%, #310F6E 90.72%, #263ACB 133.23%);;
     border-radius: 1em;
-    min-height: 98%;
+    min-height: 90%;
     min-width: 80%;
     display: flex;
     justify-content: space-between;
-   
+    position: relative;
+    height: 80vh;
   }
   
   .input-calculator{
@@ -43,18 +42,17 @@
 
   .models{
     width: 500%;
-    height: 100px;
-    padding: 50px;
-    margin-bottom: 59px;
+    height: max-content;
+    padding: 15px;
     align-items: top;
    }
 
  .result{
   width: 500%;
-  height: 100px;
-  padding: 50px;
-  margin-bottom: 59px;
+  height: max-content;
+  padding: 15px;
   align-items: top;
+
  }
 
  select{

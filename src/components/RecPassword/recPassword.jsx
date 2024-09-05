@@ -1,8 +1,8 @@
 import * as React from 'react';
 import FotoLogin from "../../assets/foguete.svg";
-import { FcGoogle } from "react-icons/fc";
 import '../../App.css';
 import '../RecPassword/recPassword.css';
+import { Link } from 'react-router-dom';
 
 
 
@@ -15,15 +15,15 @@ const RecPassword = () => {
                     <img src={FotoLogin} alt="foto-login" className="foto-login" />
                 </div>
                 <div className="cardLogin">
-                    <h1 className="titulo">Recueração de senha</h1>
+                    <h1 className="titulo">Recuperar senha</h1>
                     <div className="card-login">
                         <input type="text" placeholder="Usuário ou Email" /><br /><br />
-                        
-                        <input type="password" placeholder="Senha" /><br /><br />
-                
-                        <button className="btn-1">Login</button> 
-                        <button className="btn-2">Cadastrar</button> <br /><br />
-                        <a href="../RecPassword/recpassword">Esqueceu a senha?</a><br /> <br />     
+
+                        <input type="password" placeholder="Nova Senha" /><br /><br />
+                        <Link to={"/login"}>
+                            <button className="btn-1" >Recuperar</button>
+                        </Link> <br /> <br />
+                        <Link to={"/login"}>Voltar</Link><br /> <br />
                     </div>
                 </div>
 

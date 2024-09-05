@@ -9,7 +9,7 @@ import AI from './components/AI/trafficAi';
 import Calculator from './components/Calculator/calculator';
 import Navbar from './components/Navbar/navbar';
 import { Footer } from './components/Footer/footer';
-import { Nav } from 'react-bootstrap';
+import RecPassword from './components/RecPassword/recPassword';
 
 
 /*Eu não aguento mais*/
@@ -24,6 +24,7 @@ function App() {
         <Route path="/perfil" element={<Perfil />} />
         <Route path="/calculator" element={<Calculator />} />
         <Route path="/ai" element={<AI />} />
+        <Route path="/recuperar senha" element={<RecPassword />} />
       </Routes>
       <Footer />
     </BrowserRouter>

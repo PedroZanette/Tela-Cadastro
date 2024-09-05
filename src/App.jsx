@@ -12,7 +12,6 @@ import { Footer } from './components/Footer/footer';
 import RecPassword from './components/RecPassword/recPassword';
 
 
-/*Eu não aguento mais*/
 function App() {
   return (
     <BrowserRouter>

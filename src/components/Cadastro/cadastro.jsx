@@ -19,7 +19,7 @@ const Cadastro = () => {
                         <input type="text" placeholder="Usuário" /><br /><br />
                         <input type="email" placeholder="Email" /><br /><br />
                         <input type="password" placeholder="Senha" /><br /><br />
-                        <input type="password" placeholder="Repitir Senha" /><br /><br />
+                        <input type="password" placeholder="Repetir Senha" /><br /><br />
                         <button className="btn-1">Cadastrar</button> 
                         <button className="btn-2">Login</button> <br />
                         <FcGoogle className="google"/>

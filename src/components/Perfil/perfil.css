@@ -77,23 +77,11 @@
   
   .foto-cadastro {
     height: 65vh;
-    /* max-height: fit-content; */
   }
   
   .icone {
   
     font-size: 2500%;
-  }
-  
-
-  
-  button:hover {
-    transition: 500000ms linear;
-    color: white;
-  
-    outline: none;
-    border: none;
-    background-color: #3d004f73;
   }
   
   .cardPerfil {
